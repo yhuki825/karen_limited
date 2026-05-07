@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="株式会社カレンリミテッドは、静岡県掛川市で成人式・婚礼・七五三・卒業袴などの貸衣装をご提案する企業です。人生の節目を彩る一着を、丁寧な接客でお届けします。">
+    <title>株式会社カレンリミテッド | 静岡県掛川市の貸衣装</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ink: '#2f2a26',
+                        sand: '#f7f1e8',
+                        ivory: '#fffaf2',
+                        gold: '#b89454',
+                        rose: '#9f5967'
+                    },
+                    fontFamily: {
+                        serifjp: ['Noto Serif JP', 'serif'],
+                        sansjp: ['Noto Sans JP', 'sans-serif']
+                    },
+                    boxShadow: {
+                        soft: '0 24px 70px rgba(74, 55, 35, 0.12)'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            color: #2f2a26;
+            background: #fffaf2;
+        }
+        .font-serif-jp {
+            font-family: 'Noto Serif JP', serif;
+        }
+        .hero-bg {
+            background-image:
+                linear-gradient(90deg, rgba(31, 24, 18, 0.72), rgba(31, 24, 18, 0.34), rgba(31, 24, 18, 0.18)),
+                url('https://images.unsplash.com/photo-1594751003130-14e867499298?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        .section-label::before,
+        .section-label::after {
+            content: '';
+            display: inline-block;
+            width: 36px;
+            height: 1px;
+            background: #b89454;
+            vertical-align: middle;
+            margin: 0 14px;
+        }
+        .image-card img {
+            transition: transform .7s ease, filter .7s ease;
+        }
+        .image-card:hover img {
+            transform: scale(1.06);
+            filter: saturate(1.08) contrast(1.03);
+        }
+        .glass-nav {
+            background: rgba(255, 250, 242, .88);
+            backdrop-filter: blur(18px);
+        }
+        .ornament {
+            background: radial-gradient(circle at center, rgba(184, 148, 84, .18), rgba(184, 148, 84, 0) 62%);
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <header class="fixed inset-x-0 top-0 z-50 border-b border-white/60 glass-nav">
+        <nav class="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:px-8" aria-label="グローバルナビゲーション">
+            <a href="#top" class="group inline-flex flex-col leading-none" aria-label="株式会社カレンリミテッド トップへ">
+                <span class="font-serif-jp text-xl font-bold tracking-[0.24em] text-ink md:text-2xl">KAREN LIMITED</span>
+                <span class="mt-2 text-[10px] tracking-[0.28em] text-stone-500">COSTUME RENTAL IN KAKEGAWA</span>
+            </a>
+            <div class="hidden items-center gap-8 md:flex">
+                <a href="#concept" class="text-sm font-medium tracking-widest text-stone-600 transition hover:text-gold">コンセプト</a>
+                <a href="#services" class="text-sm font-medium tracking-widest text-stone-600 transition hover:text-gold">サービス</a>
+                <a href="#quality" class="text-sm font-medium tracking-widest text-stone-600 transition hover:text-gold">選ばれる理由</a>
+                <a href="#message" class="text-sm font-medium tracking-widest text-stone-600 transition hover:text-gold">代表挨拶</a>
+                <a href="#access" class="rounded-full border border-gold/50 px-5 py-2 text-sm font-medium tracking-widest text-ink transition hover:bg-gold hover:text-white">会社情報</a>
+            </div>
+            <button class="rounded-full border border-stone-300 p-2 text-stone-700 md:hidden" type="button" aria-label="メニュー">
+                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 7h16M4 12h16M4 17h16" />
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero-bg relative flex min-h-screen items-center overflow-hidden pt-20">
+            <div class="ornament pointer-events-none absolute -right-32 top-24 h-96 w-96 rounded-full"></div>
+            <div class="mx-auto grid w-full max-w-7xl items-center gap-12 px-5 py-24 md:grid-cols-[1.08fr_.92fr] md:px-8">
+                <div class="max-w-3xl text-white">
+                    <p class="mb-6 inline-flex items-center gap-3 rounded-full border border-white/40 bg-white/10 px-5 py-2 text-xs font-medium tracking-[0.28em] backdrop-blur-md">SHIZUOKA KAKEGAWA</p>
+                    <h1 class="font-serif-jp text-4xl font-bold leading-[1.25] tracking-[0.08em] md:text-6xl">
+                        人生の節目を、<br class="hidden sm:block">記憶に残る一着で。
+                    </h1>
+                    <p class="mt-8 max-w-2xl text-base leading-9 text-white/88 md:text-lg">
+                        株式会社カレンリミテッドは、静岡県掛川市で成人式・婚礼・七五三・卒業袴などの貸衣装をご提案しています。伝統の美しさと現代的な感性を重ね、お客様の大切な一日を上品に彩ります。
+                    </p>
+                    <div class="mt-10 flex flex-col gap-4 sm:flex-row">
+                        <a href="#services" class="inline-flex items-center justify-center rounded-full bg-white px-8 py-4 text-sm font-bold tracking-[0.18em] text-ink transition hover:bg-gold hover:text-white">サービスを見る</a>
+                        <a href="https://maps.google.com/?q=静岡県掛川市亀の甲2-17-20" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full border border-white/60 px-8 py-4 text-sm font-bold tracking-[0.18em] text-white transition hover:bg-white hover:text-ink">アクセスを確認</a>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="relative ml-auto max-w-md rounded-[2rem] border border-white/30 bg-white/16 p-5 shadow-soft backdrop-blur-md">
+                        <div class="rounded-[1.5rem] bg-ivory p-8 text-ink">
+                            <p class="font-serif-jp text-2xl font-bold leading-relaxed">晴れの日にふさわしい、品格と華やぎ。</p>
+                            <dl class="mt-8 space-y-5 text-sm">
+                                <div class="flex justify-between border-b border-stone-200 pb-4"><dt class="text-stone-500">Location</dt><dd class="font-medium">静岡県掛川市</dd></div>
+                                <div class="flex justify-between border-b border-stone-200 pb-4"><dt class="text-stone-500">Style</dt><dd class="font-medium">和装・洋装</dd></div>
+                                <div class="flex justify-between"><dt class="text-stone-500">Scene</dt><dd class="font-medium">成人式 / 婚礼 / 七五三</dd></div>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#concept" class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/80" aria-label="次のセクションへ移動">
+                <svg class="h-8 w-8 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 9l-7 7-7-7" />
+                </svg>
+            </a>
+        </section>
+
+        <section id="concept" class="relative overflow-hidden bg-ivory px-5 py-24 md:px-8 md:py-32">
+            <div class="mx-auto max-w-5xl text-center">
+                <p class="section-label text-xs font-bold tracking-[0.28em] text-gold">CONCEPT</p>
+                <h2 class="font-serif-jp mt-6 text-3xl font-bold leading-relaxed tracking-[0.08em] md:text-5xl">想いをまとう、<br class="sm:hidden">記念日をつくる。</h2>
+                <p class="mx-auto mt-8 max-w-3xl text-base leading-9 text-stone-650 md:text-lg">
+                    衣装は、写真に残る姿だけでなく、その日を迎えるまでの期待やご家族の想いまで包み込むものです。カレンリミテッドは、お客様一人ひとりの雰囲気やご希望に寄り添い、心から納得できる装いとの出会いを丁寧にお手伝いします。
+                </p>
+                <div class="mt-14 grid gap-5 md:grid-cols-3">
+                    <div class="rounded-3xl bg-white p-8 text-left shadow-soft">
+                        <p class="font-serif-jp text-4xl font-bold text-gold">01</p>
+                        <h3 class="mt-5 font-serif-jp text-xl font-bold">伝統美</h3>
+                        <p class="mt-4 text-sm leading-7 text-stone-600">古典柄や格式ある和装の魅力を大切にし、晴れの日にふさわしい装いをご提案します。</p>
+                    </div>
+                    <div class="rounded-3xl bg-white p-8 text-left shadow-soft">
+                        <p class="font-serif-jp text-4xl font-bold text-gold">02</p>
+                        <h3 class="mt-5 font-serif-jp text-xl font-bold">現代感</h3>
+                        <p class="mt-4 text-sm leading-7 text-stone-600">トレンドを取り入れた色柄やシルエットで、お客様らしさが引き立つ一着を選びます。</p>
+                    </div>
+                    <div class="rounded-3xl bg-white p-8 text-left shadow-soft">
+                        <p class="font-serif-jp text-4xl font-bold text-gold">03</p>
+                        <h3 class="mt-5 font-serif-jp text-xl font-bold">寄り添い</h3>
+                        <p class="mt-4 text-sm leading-7 text-stone-600">初めての方にも安心していただけるよう、用途や当日の流れに合わせて丁寧にご案内します。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="bg-sand px-5 py-24 md:px-8 md:py-32">
+            <div class="mx-auto max-w-7xl">
+                <div class="mb-16 flex flex-col justify-between gap-6 md:flex-row md:items-end">
+                    <div>
+                        <p class="text-xs font-bold tracking-[0.28em] text-gold">SERVICES</p>
+                        <h2 class="font-serif-jp mt-5 text-3xl font-bold tracking-[0.08em] md:text-5xl">サービス内容</h2>
+                    </div>
+                    <p class="max-w-xl text-sm leading-8 text-stone-600">成人式、婚礼、七五三、お宮参り、卒業袴など、多彩な節目に対応します。ご利用シーンに合わせ、衣装選びからコーディネートまでご相談ください。</p>
+                </div>
+                <div class="grid gap-8 md:grid-cols-3">
+                    <article class="group overflow-hidden rounded-[2rem] bg-white shadow-soft">
+                        <div class="image-card h-72 overflow-hidden">
+                            <img src="sotsugyo2.jpg" alt="華やかな振袖のイメージ" class="h-full w-full object-cover">
+                        </div>
+                        <div class="p-8">
+                            <p class="mb-3 text-xs font-bold tracking-[0.24em] text-gold">FURISODE</p>
+                            <h3 class="font-serif-jp text-2xl font-bold">成人式・振袖</h3>
+                            <p class="mt-5 text-sm leading-8 text-stone-600">古典柄からモダンな色柄まで、晴れやかな門出を引き立てる振袖をご用意。ご本人の個性とご家族の想いを大切に、上品な装いへ整えます。</p>
+                        </div>
+                    </article>
+                    <article class="group overflow-hidden rounded-[2rem] bg-white shadow-soft">
+                        <div class="image-card h-72 overflow-hidden">
+                            <img src="wedding.jpg" alt="婚礼衣装のイメージ" class="h-full w-full object-cover">
+                        </div>
+                        <div class="p-8">
+                            <p class="mb-3 text-xs font-bold tracking-[0.24em] text-gold">WEDDING</p>
+                            <h3 class="font-serif-jp text-2xl font-bold">婚礼衣装</h3>
+                            <p class="mt-5 text-sm leading-8 text-stone-600">白無垢、色打掛、ウェディングドレスなど、お二人の門出にふさわしい装いをご提案。式の雰囲気や会場に合わせたコーディネートも大切にします。</p>
+                        </div>
+                    </article>
+                    <article class="group overflow-hidden rounded-[2rem] bg-white shadow-soft">
+                        <div class="image-card h-72 overflow-hidden">
+                            <img src="753.jpg" alt="家族の記念日衣装のイメージ" class="h-full w-full object-cover">
+                        </div>
+                        <div class="p-8">
+                            <p class="mb-3 text-xs font-bold tracking-[0.24em] text-gold">CEREMONY</p>
+                            <h3 class="font-serif-jp text-2xl font-bold">七五三・お宮参り</h3>
+                            <p class="mt-5 text-sm leading-8 text-stone-600">お子様の健やかな成長を祝う記念日を、可愛らしく凛とした衣装で演出。ご家族写真にも映える、温かみのある装いをお選びいただけます。</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="quality" class="bg-ink px-5 py-24 text-white md:px-8 md:py-32">
+            <div class="mx-auto grid max-w-7xl gap-14 md:grid-cols-[.9fr_1.1fr] md:items-center">
+                <div>
+                    <p class="text-xs font-bold tracking-[0.28em] text-gold">QUALITY</p>
+                    <h2 class="font-serif-jp mt-5 text-3xl font-bold leading-relaxed tracking-[0.08em] md:text-5xl">大切な一日に、<br>安心して向き合えるように。</h2>
+                    <p class="mt-8 text-sm leading-8 text-white/72">衣装選びは、単なるレンタルではなく記念日の準備そのものです。ご希望、季節感、写真映え、会場との相性まで考えながら、納得感のある一着へ導きます。</p>
+                </div>
+                <div class="grid gap-5 sm:grid-cols-2">
+                    <div class="rounded-3xl border border-white/12 bg-white/6 p-7 backdrop-blur-md">
+                        <h3 class="font-serif-jp text-xl font-bold">幅広いシーンに対応</h3>
+                        <p class="mt-4 text-sm leading-7 text-white/68">成人式、婚礼、七五三、卒業袴等、人生の節目に合わせた衣装選びをお手伝いします</p>
+                    </div>
+                    <div class="rounded-3xl border border-white/12 bg-white/6 p-7 backdrop-blur-md">
+                        <h3 class="font-serif-jp text-xl font-bold">掛川市での地域密着</h3>
+                        <p class="mt-4 text-sm leading-7 text-white/68">静岡県掛川市を拠点に、地域のお客様の晴れの日を長く支える存在を目指しています</p>
+                    </div>
+                    <div class="rounded-3xl border border-white/12 bg-white/6 p-7 backdrop-blur-md">
+                        <h3 class="font-serif-jp text-xl font-bold">丁寧なコーディネート</h3>
+                        <p class="mt-4 text-sm leading-7 text-white/68">衣装そのものの美しさだけでなく、全体の雰囲気が整うように細部まで配慮します</p>
+                    </div>
+                    <div class="rounded-3xl border border-white/12 bg-white/6 p-7 backdrop-blur-md">
+                        <h3 class="font-serif-jp text-xl font-bold">記憶に残る体験</h3>
+                        <p class="mt-4 text-sm leading-7 text-white/68">当日を迎えるまでの時間も楽しめるよう、相談しやすい雰囲気づくりを大切にします</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="message" class="bg-ivory px-5 py-24 md:px-8 md:py-32">
+            <div class="mx-auto max-w-5xl rounded-[2rem] border border-gold/20 bg-white p-8 shadow-soft md:p-14">
+                <p class="section-label text-center text-xs font-bold tracking-[0.28em] text-gold">MESSAGE</p>
+                <h2 class="font-serif-jp mt-6 text-center text-3xl font-bold tracking-[0.08em] md:text-5xl">代表挨拶</h2>
+                <blockquote class="font-serif-jp mx-auto mt-10 max-w-4xl text-center text-lg leading-loose text-stone-700 md:text-2xl">
+                    衣装は単に身に纏うものではなく、その方の想いやご家族の絆を表現するものだと考えております。カレンリミテッドはお客様お一人おひとりの人生に寄り添い「この一着に出会えてよかった」と感じていただける体験を追求し続けてまいります。
+                </blockquote>
+                <div class="mt-10 text-center">
+                    <p class="text-sm tracking-[0.18em] text-stone-500">株式会社カレンリミテッド</p>
+                    <p class="font-serif-jp mt-3 text-xl font-bold tracking-[0.18em]">代表取締役　林 敏史</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="access" class="bg-sand px-5 py-24 md:px-8 md:py-32">
+            <div class="mx-auto max-w-7xl">
+                <div class="mb-14 text-center">
+                    <p class="section-label text-xs font-bold tracking-[0.28em] text-gold">COMPANY</p>
+                    <h2 class="font-serif-jp mt-6 text-3xl font-bold tracking-[0.08em] md:text-5xl">会社情報・アクセス</h2>
+                </div>
+                <div class="grid gap-8 md:grid-cols-[.95fr_1.05fr]">
+                    <div class="rounded-[2rem] bg-white p-8 shadow-soft md:p-10">
+                        <dl class="divide-y divide-stone-200 text-sm">
+                            <div class="grid gap-2 py-5 sm:grid-cols-[8rem_1fr]"><dt class="font-serif-jp font-bold text-ink">社名</dt><dd class="text-stone-650">株式会社カレンリミテッド</dd></div>
+                            <div class="grid gap-2 py-5 sm:grid-cols-[8rem_1fr]"><dt class="font-serif-jp font-bold text-ink">代表者</dt><dd class="text-stone-650">代表取締役　林 敏史</dd></div>
+                            <div class="grid gap-2 py-5 sm:grid-cols-[8rem_1fr]"><dt class="font-serif-jp font-bold text-ink">所在地</dt><dd class="text-stone-650">〒436-0028<br>静岡県掛川市亀の甲2-17-20</dd></div>
+                            <div class="grid gap-2 py-5 sm:grid-cols-[8rem_1fr]"><dt class="font-serif-jp font-bold text-ink">事業内容</dt><dd class="text-stone-650">貸衣装、成人式振袖、婚礼衣装、七五三、お宮参り、卒業袴等</dd></div>
+                        </dl>
+                        <a href="https://maps.google.com/?q=静岡県掛川市亀の甲2-17-20" target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex w-full items-center justify-center rounded-full bg-ink px-7 py-4 text-sm font-bold tracking-[0.18em] text-white transition hover:bg-gold">Googleマップで開く</a>
+                    </div>
+                    <div class="overflow-hidden rounded-[2rem] bg-white p-4 shadow-soft">
+                        <div class="flex aspect-[4/3] items-center justify-center rounded-[1.5rem] bg-[linear-gradient(135deg,#efe4d2,#fffaf2)] text-center">
+                            <div class="px-8">
+                                <svg class="mx-auto h-14 w-14 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M12 21s7-5.2 7-12A7 7 0 105 9c0 6.8 7 12 7 12z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M12 12.2a3 3 0 100-6 3 3 0 000 6z" />
+                                </svg>
+                                <p class="font-serif-jp mt-6 text-2xl font-bold text-ink">ACCESS MAP</p>
+                                <p class="mt-4 text-sm leading-7 text-stone-600">静岡県掛川市亀の甲2-17-20<br>掛川駅より徒歩圏内</p>
+                                <p class="mt-6 text-xs leading-6 text-stone-500"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.590575555075!2d138.00913057709514!3d34.76590507289668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601af99265029fe1%3A0xcde905da6f7b38fd!2z44CSNDM2LTAwMjgg6Z2Z5bKh55yM5o6b5bed5biC5LqA44Gu55Sy77yS5LiB55uu77yR77yX4oiS77yS77yQ!5e0!3m2!1sja!2sjp!4v1777442773591!5m2!1sja!2sjp" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-ink px-5 py-12 text-white md:px-8">
+        <div class="mx-auto flex max-w-7xl flex-col justify-between gap-8 md:flex-row md:items-center">
+            <div>
+                <p class="font-serif-jp text-xl font-bold tracking-[0.28em]">KAREN LIMITED</p>
+                <p class="mt-3 text-xs tracking-[0.2em] text-white/45">COSTUME RENTAL IN KAKEGAWA</p>
+            </div>
+            <div class="text-left text-xs leading-7 text-white/50 md:text-right">
+                <p>〒436-0028 静岡県掛川市亀の甲2-17-20</p>
+                <p>&copy; 2026 KAREN LIMITED Co., Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
